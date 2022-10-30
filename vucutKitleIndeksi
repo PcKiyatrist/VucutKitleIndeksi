@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class vucutKitleIndeksi {
+    public static void main(String[] args) {
+        double kg , m , indeks ;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Vücut Kitle İndeksi");
+        System.out.print("Boyunuzu Metre Olarak Girin : ");
+        m = input.nextDouble();
+        System.out.print("Kilonuzu Girin : ");
+        kg = input.nextDouble();
+        indeks = kg / ( m * m ) ;
+        System.out.print("Vücut Kitle İndeksi : " + indeks);
+    }
+}
